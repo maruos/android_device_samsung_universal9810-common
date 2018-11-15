@@ -116,7 +116,7 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
 
 # SELinux
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private vendor/maruos/sepolicy
 
 # Lineage hardware
 ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
