@@ -126,7 +126,6 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     <bool name="config_enableBurnInProtection">true</bool>
     <integer name="config_screenBrightnessDoze">22</integer>
-    <bool name="config_freeformWindowManagement">true</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
         <item>"/system/framework/arm64/boot-framework.oat"</item>
